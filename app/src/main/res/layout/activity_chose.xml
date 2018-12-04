@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".choseActivity"
+    android:background="@drawable/latar"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dzikir_apa_yang_belum_"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/btnDzikirPagi"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Dzikir Pagi"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:onClick="dzikirPagi"
+        android:background="@drawable/button"/>
+
+    <Button
+        android:id="@+id/btnDzikirPetang"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Dzikir Petang"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:onClick="dzikirPetang"
+        android:background="@drawable/button"/>
+
+    <Button
+        android:id="@+id/btnDzikirSholat"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Dzikir setelah sholat"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:onClick="dzikirSholat"
+        android:background="@drawable/button"/>
+
+
+
+
+
+
+</LinearLayout>
